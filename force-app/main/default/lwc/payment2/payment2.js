@@ -11,7 +11,6 @@ export default class Payment2 extends LightningElement {
 
     handleAnotherAmountChange(event) {
         const value = event.detail.value;
-        // this.anotherAmount = value;
 
         const xform = anotherAmountStripInvalidChars(value);
 
