@@ -13,13 +13,9 @@ export default class Payment2 extends LightningElement {
         const value = event.detail.value;
 
         const xform = anotherAmountStripInvalidChars(value);
+        console.log('xform:', xform);
 
-        if(xform.length <= 0) {
-            this.anotherAmount = undefined
-        }
-        else {
-            this.anotherAmount = xform;
-        }
+        this.anotherAmount = xform;
     }
 
 }
