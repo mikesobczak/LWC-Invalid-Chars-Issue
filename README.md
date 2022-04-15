@@ -1,0 +1,1 @@
+# LWC-Invalid-Chars-Issue
